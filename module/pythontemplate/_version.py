@@ -7,5 +7,5 @@ Provides pythontemplate version information.
 
 from incremental import Version
 
-__version__ = Version("pythontemplate", 1, 0, 0, dev=0)
+__version__ = Version("pythontemplate", 1, 0, 0, dev=1)
 __all__ = ["__version__"]
