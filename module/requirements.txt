@@ -1,0 +1,4 @@
+incremental==21.3.0
+pyinstaller==5.3
+shellingham==1.5.0
+typer==0.6.1
