@@ -19,7 +19,7 @@ jobs:
       PYPI_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
     with:
       code-path: module
-      module-name: pythontemplate
+      module-name: timmopytemplate
       use-incremental: true
   deploy-container-amd64:
     needs:

@@ -6,7 +6,7 @@ import sys
 import typer
 
 PACKAGES = [
-    {"path": "module", "module": "pythontemplate"},
+    {"path": "module", "module": "timmopytemplate"},
 ]
 
 app = typer.Typer()

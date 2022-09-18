@@ -11,18 +11,18 @@ RUN \
     apt-get update \
     \
     && apt-get install -y \
-        python3 \
-        python3-pip \
-        python3-setuptools \
-        python3-wheel \
+    python3 \
+    python3-pip \
+    python3-setuptools \
+    python3-wheel \
     \
     && pip install --upgrade \
-        pythontemplate \
+    timmopytemplate \
     \
     && rm -fr \
-        /tmp/* \
-        /var/{cache,log}/* \
-        /var/lib/apt/lists/*
+    /tmp/* \
+    /var/{cache,log}/* \
+    /var/lib/apt/lists/*
 
 # Copy root filesystem
 COPY rootfs /

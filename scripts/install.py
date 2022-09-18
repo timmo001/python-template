@@ -21,7 +21,7 @@ def dev() -> None:
 
     command = [
         *command,
-        "pythontemplate",
+        "timmopytemplate",
     ]
 
     print("Installing..")
@@ -44,7 +44,7 @@ def production() -> None:
 
     command = [
         *command,
-        "pythontemplate",
+        "timmopytemplate",
     ]
 
     print("Installing..")

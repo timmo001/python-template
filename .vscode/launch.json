@@ -5,7 +5,7 @@
       "name": "Module",
       "type": "python",
       "request": "launch",
-      "module": "pythontemplate",
+      "module": "timmopytemplate",
       "preLaunchTask": "Module: pip install",
       "cwd": "${workspaceFolder}/module",
       "justMyCode": false,

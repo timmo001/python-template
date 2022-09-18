@@ -12,7 +12,7 @@ with io.open("requirements.txt", encoding="utf-8") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="pythontemplate",
+    name="timmopytemplate",
     description="Python Template",
     keywords="python template",
     author="Aidan Timson (Timmo)",
