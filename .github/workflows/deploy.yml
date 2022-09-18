@@ -22,13 +22,15 @@ jobs:
       module-name: pythontemplate
       use-incremental: true
   deploy-container-amd64:
+    needs:
+      - deploy-module
     uses: timmo001/workflows/.github/workflows/deploy-container-linux.yml@master
     with:
       architecture: amd64
       container-slug: python-template
   deploy-container-aarch64:
     needs:
-      - deploy-frontend
+      - deploy-module
     uses: timmo001/workflows/.github/workflows/deploy-container-linux.yml@master
     with:
       architecture: aarch64
