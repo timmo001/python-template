@@ -35,7 +35,5 @@ jobs:
     with:
       code-path: module
       module-name: pythontemplate
-      pre-install-command: |
-        cd ../shared && pip install .
   lint-yamllint:
     uses: timmo001/workflows/.github/workflows/lint-yamllint.yml@master
